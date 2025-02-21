@@ -1,0 +1,179 @@
+{
+
+    "language" : "en_US",
+    "type"     : "qwerty",
+    "width"    : 22,
+
+    "keys" : {
+
+        "Back"  : 65288,
+        "Tab"   : 65289,
+        "Enter" : 65293,
+        "Esc"   : 65307,
+        "Home"  : 65360,
+        "PgUp"  : 65365,
+        "PgDn"  : 65366,
+        "End"   : 65367,
+        "Ins"   : 65379,
+        "F1"    : 65470,
+        "F2"    : 65471,
+        "F3"    : 65472,
+        "F4"    : 65473,
+        "F5"    : 65474,
+        "F6"    : 65475,
+        "F7"    : 65476,
+        "F8"    : 65477,
+        "F9"    : 65478,
+        "F10"   : 65479,
+        "F11"   : 65480,
+        "F12"   : 65481,
+        "Del"   : 65535,
+
+        "Left" : [{
+            "title"  : "←",
+            "keysym" : 65361
+        }],
+        "Up" : [{
+            "title"  : "↑",
+            "keysym" : 65362
+        }],
+        "Right" : [{
+            "title"  : "→",
+            "keysym" : 65363
+        }],
+        "Down" : [{
+            "title"  : "↓",
+            "keysym" : 65364
+        }],
+
+        "Menu" : [{
+            "title"    : "Menu",
+            "keysym"   : 65383
+        }],
+        "LShift" : [{
+            "title"    : "Shift",
+            "modifier" : "shift",
+            "keysym"   : 65505
+        }],
+        "RShift" : [{
+            "title"    : "Shift",
+            "modifier" : "shift",
+            "keysym"   : 65506
+        }],
+        "LCtrl" : [{
+            "title"    : "Ctrl",
+            "modifier" : "control",
+            "keysym"   : 65507
+        }],
+        "RCtrl" : [{
+            "title"    : "Ctrl",
+            "modifier" : "control",
+            "keysym"   : 65508
+        }],
+        "Caps" : [{
+            "title"    : "Caps",
+            "modifier" : "caps",
+            "keysym"   : 65509
+        }],
+        "LAlt" : [{
+            "title"    : "Alt",
+            "modifier" : "alt",
+            "keysym"   : 65513
+        }],
+        "RAlt" : [{
+            "title"    : "Alt",
+            "modifier" : "alt",
+            "keysym"   : 65514
+        }],
+        "Super" : [{
+            "title"    : "Super",
+            "modifier" : "super",
+            "keysym"   : 65515
+        }],
+
+        "`" : [
+            { "title" : "`", "requires" : [         ] },
+            { "title" : "~", "requires" : [ "shift" ] }
+        ],
+        "1" : [
+            { "title" : "1", "requires" : [         ] },
+            { "title" : "!", "requires" : [ "shift" ] }
+        ],
+        "2" : [
+            { "title" : "2", "requires" : [         ] },
+            { "title" : "@", "requires" : [ "shift" ] }
+        ],
+        "3" : [
+            { "title" : "3", "requires" : [         ] },
+            { "title" : "#", "requires" : [ "shift" ] }
+        ],
+        "4" : [
+            { "title" : "4", "requires" : [         ] },
+            { "title" : "$", "requires" : [ "shift" ] }
+        ],
+        "5" : [
+            { "title" : "5", "requires" : [         ] },
+            { "title" : "%", "requires" : [ "shift" ] }
+        ],
+        "6" : [
+            { "title" : "6", "requires" : [         ] },
+            { "title" : "^", "requires" : [ "shift" ] }
+        ],
+        "7" : [
+            { "title" : "7", "requires" : [         ] },
+            { "title" : "&", "requires" : [ "shift" ] }
+        ],
+        "8" : [
+            { "title" : "8", "requires" : [         ] },
+            { "title" : "*", "requires" : [ "shift" ] }
+        ],
+        "9" : [
+            { "title" : "9", "requires" : [         ] },
+            { "title" : "(", "requires" : [ "shift" ] }
+        ],
+        "0" : [
+            { "title" : "0", "requires" : [         ] },
+            { "title" : ")", "requires" : [ "shift" ] }
+        ],
+        "-" : [
+            { "title" : "-", "requires" : [         ] },
+            { "title" : "_", "requires" : [ "shift" ] }
+        ],
+        "=" : [
+            { "title" : "=", "requires" : [         ] },
+            { "title" : "+", "requires" : [ "shift" ] }
+        ],
+        "," : [
+            { "title" : ",", "requires" : [         ] },
+            { "title" : "<", "requires" : [ "shift" ] }
+        ],
+        "." : [
+            { "title" : ".", "requires" : [         ] },
+            { "title" : ">", "requires" : [ "shift" ] }
+        ],
+        "/" : [
+            { "title" : "/", "requires" : [         ] },
+            { "title" : "?", "requires" : [ "shift" ] }
+        ],
+        "[" : [
+            { "title" : "[", "requires" : [         ] },
+            { "title" : "{", "requires" : [ "shift" ] }
+        ],
+        "]" : [
+            { "title" : "]", "requires" : [         ] },
+            { "title" : "}", "requires" : [ "shift" ] }
+        ],
+        "\\" : [
+            { "title" : "\\", "requires" : [         ] },
+            { "title" : "|",  "requires" : [ "shift" ] }
+        ],
+        ";" : [
+            { "title" : ";", "requires" : [         ] },
+            { "title" : ":", "requires" : [ "shift" ] }
+        ],
+        "'" : [
+            { "title" : "'",  "requires" : [         ] },
+            { "title" : "\"", "requires" : [ "shift" ] }
+        ]
+
+}
