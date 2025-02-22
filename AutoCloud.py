@@ -3,6 +3,7 @@
 import requests
 import websocket
 import base64
+from PIL import Image, ImageDraw
 import io
 import threading
 import time
@@ -25,6 +26,7 @@ dimension_x, dimension_y = [0 for _ in range(sessions*start_from)], [0 for _ in 
 
 canvas_width = 1024
 canvas_height = 768
+canvas = [Image.new('RGB', (canvas_width, canvas_height), 'white') for _ in range(sessions*start_from)]
 
 sync_first = [1 for _ in range(sessions*start_from)]
 cursor_first = [1 for _ in range(sessions*start_from)]
@@ -54,7 +56,7 @@ def start_session_outer(session):
             blob[session-1] = ""
             dimension_x[session-1], dimension_y[session-1] = 0, 0
 
-            #canvas[session-1] = Image.new('RGB', (canvas_width, canvas_height), 'white')
+            canvas[session-1] = Image.new('RGB', (canvas_width, canvas_height), 'white')
             sync_first[session-1] = 1
             cursor_first[session-1] = 1
             
