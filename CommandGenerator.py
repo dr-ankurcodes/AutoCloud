@@ -21,3 +21,4 @@ def generate_command(keys):
 command = generate_command(command)
 print('Here is your equivalent command for onworks: ')
 print(command)
+input('Press Enter to Exit!!')
