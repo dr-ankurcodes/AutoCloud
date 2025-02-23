@@ -7,7 +7,7 @@
 ## Features
 
 - Start multiple OnWorks sessions simultaneously.
-- Interact with all sessions with same command.
+- Interact with all sessions with different commands.
 - Easy to configure and extend.
 
 ## Files in the Repository
@@ -91,6 +91,10 @@
 7. **Generating Key Events:**
    - Use `CommandGenerator.py` to generate key events for your commands.
    - I haven't implemented unicode keys in it yet, you have to manually add the equivalent command, if any, like for alt/enter/ctrl etc., for reference of unicode keys, see unicode_keys.txt.
+
+8. **Use different commands for multiple sessions:**
+   - Line 220 replaces any instance of s.sh with s(session_number).sh and the resulting command is sent to corresponding session. For example, if you started 3 sessions, and your commands.txt file contains the corresponding events for `wget https://test.com/test/s.sh` then for session 1 AutoCloud will send the command `wget https://test.com/s1.sh`, for session 2, `https://test.com/test/s2.sh` and for session 3 `https://test.com/test/s3.sh`. Hence, multiple commands for multiple sessions.
+   - You can either use s.sh in your command and put multiple files naming s1.sh,s2.sh,s3.sh and so on, on your working server (**preferrably gitlab, because onworks network is having some issues with github server**), or you can modify the line 220 for different behaviour.
 
 ## TODO
 
