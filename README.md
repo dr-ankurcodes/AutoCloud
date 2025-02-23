@@ -76,7 +76,7 @@
    - Example commands for keyboard:
      ```text
      3.key,2.39,1.1; #ascii key (39=')
-     3.key,5.65507,1.1; #unicode key (65507=Enter)
+     3.key,5.65293,1.1; #unicode key (65293=Enter)
      3.key,3.103,1.1; 3.key,3.103,1.0; # 1.1 = press key down, 1.0 = release key (1.1->1.0 will mean press) #ascii key (103=g)
      (Prefix 2. if key code < 100, 3. is for <1000, 4 is for < 10000, 5 is for >10000)
      ```
